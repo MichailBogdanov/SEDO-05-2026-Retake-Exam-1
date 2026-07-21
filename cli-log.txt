@@ -1,0 +1,605 @@
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07
+$ git clone https://github.com/MichailBogdanov/SEDO-05-2026-Retake-Exam-1.git
+Cloning into 'SEDO-05-2026-Retake-Exam-1'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (5/5), done.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07
+$ git clone https://github.com/MichailBogdanov/SEDO-05-2026-Retake-Exam-2.git
+Cloning into 'SEDO-05-2026-Retake-Exam-2'...
+remote: Enumerating objects: 162, done.
+remote: Counting objects: 100% (162/162), done.
+remote: Compressing objects: 100% (107/107), done.
+remote: Total 162 (delta 48), reused 162 (delta 48), pack-reused 0 (from 0)
+Receiving objects: 100% (162/162), 1.12 MiB | 9.08 MiB/s, done.
+Resolving deltas: 100% (48/48), done.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07
+$ cd SEDO-05-2026-Retake-Exam-1
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ dir
+index.html  script.js  style.css
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ dotnet new gitignore
+Die Vorlage "„dotNet gitignore“-Datei" wurde erfolgreich erstellt.
+
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ dotnet build
+MSBUILD : error MSB1003: Geben Sie eine Projekt- oder Projektmappendatei an. Das aktuelle Arbeitsverzeichnis enthält keine Projekt- oder Projektmappendatei.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ cd ..
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07
+$ cd SEDO-05-2026-Retake-Exam-2
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-2 (main)
+$ dotnet new gitignore
+Die Vorlage "„dotNet gitignore“-Datei" wurde erfolgreich erstellt.
+
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-2 (main)
+$ dotnet build
+  Wiederherzustellende Projekte werden ermittelt...
+C:\Program Files\dotnet\sdk\10.0.302\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(32,5): warning NETSDK1138: Das Zielframework "net6.0" wird nicht mehr unterstützt und erhält in Zukunft keine Sicherheitsupdates mehr. Weitere Informationen zur Supportrichtlinie finden Sie unter "https://aka.ms/dotnet-core-support". [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+  "C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Homies.Data.csproj" wiederhergestellt (in 3,42 Sek.).
+  "C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\Homies.Tests.csproj" wiederhergestellt (in 8,16 Sek.).
+  "C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj" wiederhergestellt (in 8,16 Sek.).
+  "C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj" wiederhergestellt (in 8,16 Sek.).
+C:\Program Files\dotnet\sdk\10.0.302\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(32,5): warning NETSDK1138: Das Zielframework "net6.0" wird nicht mehr unterstützt und erhält in Zukunft keine Sicherheitsupdates mehr. Weitere Informationen zur Supportrichtlinie finden Sie unter "https://aka.ms/dotnet-core-support". [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „Types“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Homies.Data.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „Events“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Homies.Data.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „EventsParticipants“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Homies.Data.csproj]
+  Homies.Data -> C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\bin\Debug\net6.0\Homies.Data.dll
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „Types“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „Events“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „EventsParticipants“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Controllers\EventController.cs(125,45): warning CS8604: Mögliches Nullverweisargument für den Parameter "entity" in "EntityEntry<EventParticipant> DbSet<EventParticipant>.Remove(EventParticipant entity)". [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Controllers\EventController.cs(119,17): warning CS8073: Das Ergebnis des Ausdrucks ist immer "false", da ein Wert vom Typ "ValueTask<Event?>" niemals NULL vom Typ "ValueTask<Event?>?" ist. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Views\Shared\_Layout.cshtml(26,30): warning CS8602: Dereferenzierung eines möglichen Nullverweises. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Views\Event\All.cshtml(22,18): warning CS8602: Dereferenzierung eines möglichen Nullverweises. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Views\Event\Details.cshtml(23,14): warning CS8602: Dereferenzierung eines möglichen Nullverweises. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Views\Event\Joined.cshtml(21,18): warning CS8602: Dereferenzierung eines möglichen Nullverweises. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+  Homies -> C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\bin\Debug\net6.0\Homies.dll
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\EventControllerUnitTests.cs(111,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\Homies.Tests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\EventControllerUnitTests.cs(90,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\Homies.Tests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\EventControllerUnitTests.cs(144,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\Homies.Tests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(117,45): warning CS8602: Dereferenzierung eines möglichen Nullverweises. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(77,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(80,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(81,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(114,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(117,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(118,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(142,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(145,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(146,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(147,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(178,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(181,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(215,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(216,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+  Homies.IntegrationTests -> C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\bin\Debug\net6.0\Homies.IntegrationTests.dll
+  Homies.Tests -> C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\bin\Debug\net6.0\Homies.Tests.dll
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+C:\Program Files\dotnet\sdk\10.0.302\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(32,5): warning NETSDK1138: Das Zielframework "net6.0" wird nicht mehr unterstützt und erhält in Zukunft keine Sicherheitsupdates mehr. Weitere Informationen zur Supportrichtlinie finden Sie unter "https://aka.ms/dotnet-core-support". [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Program Files\dotnet\sdk\10.0.302\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(32,5): warning NETSDK1138: Das Zielframework "net6.0" wird nicht mehr unterstützt und erhält in Zukunft keine Sicherheitsupdates mehr. Weitere Informationen zur Supportrichtlinie finden Sie unter "https://aka.ms/dotnet-core-support". [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „Types“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Homies.Data.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „Events“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Homies.Data.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „EventsParticipants“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Data\Homies.Data.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „Types“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „Events“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Data\HomiesDbContext.cs(10,16): warning CS8618: Non-Nullable-Eigenschaft „EventsParticipants“ muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Fügen Sie ggf. den „erforderlichen“ Modifizierer hinzu, oder deklarieren Sie den Eigenschaft als NULL-Werte zulassend. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Controllers\EventController.cs(125,45): warning CS8604: Mögliches Nullverweisargument für den Parameter "entity" in "EntityEntry<EventParticipant> DbSet<EventParticipant>.Remove(EventParticipant entity)". [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Controllers\EventController.cs(119,17): warning CS8073: Das Ergebnis des Ausdrucks ist immer "false", da ein Wert vom Typ "ValueTask<Event?>" niemals NULL vom Typ "ValueTask<Event?>?" ist. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Views\Shared\_Layout.cshtml(26,30): warning CS8602: Dereferenzierung eines möglichen Nullverweises. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Views\Event\All.cshtml(22,18): warning CS8602: Dereferenzierung eines möglichen Nullverweises. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Views\Event\Details.cshtml(23,14): warning CS8602: Dereferenzierung eines möglichen Nullverweises. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Views\Event\Joined.cshtml(21,18): warning CS8602: Dereferenzierung eines möglichen Nullverweises. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies\Homies.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\EventControllerUnitTests.cs(111,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\Homies.Tests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\EventControllerUnitTests.cs(90,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\Homies.Tests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\EventControllerUnitTests.cs(144,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.Tests\Homies.Tests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(117,45): warning CS8602: Dereferenzierung eines möglichen Nullverweises. [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(77,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(80,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(81,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(114,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(117,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(118,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(142,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(145,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(146,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(147,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(178,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(181,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(215,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\EventControllerIntegrationTests.cs(216,13): warning NUnit2005: Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual) (https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md) [C:\Michail_C\SoftUni\SoftUni\DevOps\Exam_21.07\SEDO-05-2026-Retake-Exam-2\Homies.IntegrationTests\Homies.IntegrationTests.csproj]
+    32 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:20.29
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-2 (main)
+$ cd ..
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07
+$ cd SEDO-05-2026-Retake-Exam-1
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git pull
+From https://github.com/MichailBogdanov/SEDO-05-2026-Retake-Exam-1
+ * [new branch]      bugfix/home-load      -> origin/bugfix/home-load
+ * [new branch]      chore/user-service-refactor -> origin/chore/user-service-refactor
+ * [new branch]      feature/new-ui-button -> origin/feature/new-ui-button
+Already up to date.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git push
+Everything up-to-date
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git add .
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git commit
+Aborting commit due to empty commit message.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git commit -m "add gitignore"
+[main 1b5f87b] add gitignore
+ 1 file changed, 482 insertions(+)
+ create mode 100644 .gitignore
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.73 KiB | 3.73 MiB/s, done.
+To https://github.com/MichailBogdanov/SEDO-05-2026-Retake-Exam-1.git
+   ff07279..1b5f87b  main -> main
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git log >> cli-log.txt
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git log | tee log.txt
+commit 1b5f87b8e83b04ab14cfafef7abdedf86ccb08a6
+Author: MichailBogdanov <michail.mb.bogdanov@gmail.gmail.com>
+Date:   Tue Jul 21 08:29:54 2026 +0200
+
+    add gitignore
+
+commit ff072798fb197413eb96e7ddcc44be2ac16bae6b
+Author: SUContent <134996680+SUContent@users.noreply.github.com>
+Date:   Fri Jul 17 13:16:01 2026 +0300
+
+    Initial upload
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (main)
+$ git checkout feature/new-ui-button
+Switched to a new branch 'feature/new-ui-button'
+branch 'feature/new-ui-button' set up to track 'origin/feature/new-ui-button'.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git status
+On branch feature/new-ui-button
+Your branch is up to date with 'origin/feature/new-ui-button'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cli-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git status
+On branch feature/new-ui-button
+Your branch is up to date with 'origin/feature/new-ui-button'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git add .
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git commit -m "update index.html"
+[feature/new-ui-button 90281f7] update index.html
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git status
+On branch feature/new-ui-button
+Your branch is ahead of 'origin/feature/new-ui-button' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git status
+On branch feature/new-ui-button
+Your branch is ahead of 'origin/feature/new-ui-button' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   script.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git add .
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git commit -m "update script.js"
+[feature/new-ui-button 91d7621] update script.js
+ 1 file changed, 20 insertions(+), 3 deletions(-)
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git status
+On branch feature/new-ui-button
+Your branch is ahead of 'origin/feature/new-ui-button' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git add .
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git commit -m "update style.css"
+[feature/new-ui-button 8fd671f] update style.css
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git rebase -i HEAD~3
+Aborting commit due to empty commit message.
+Could not apply 8fd671f... update style.css
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button|REBASE 3/3)
+$
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button|REBASE 3/3)
+$ git log -oneline
+fatal: unrecognized argument: -oneline
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button|REBASE 3/3)
+$ git log --oneline
+8d46153 (HEAD) # This is a combination of 2 commits. # This is the 1st commit message:
+ff07279 (origin/feature/new-ui-button, origin/chore/user-service-refactor, origin/bugfix/home-load) Initial upload
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button|REBASE 3/3)
+$ git push
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button|REBASE 3/3)
+$ git^C
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button|REBASE 3/3)
+$ git push --force-with-lease
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button|REBASE 3/3)
+$ git status
+interactive rebase in progress; onto ff07279
+Last commands done (3 commands done):
+   squash 91d7621 update script.js
+   squash 8fd671f update style.css
+  (see more in file .git/rebase-merge/done)
+No commands remaining.
+You are currently rebasing branch 'feature/new-ui-button' on 'ff07279'.
+  (all conflicts fixed: run "git rebase --continue")
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   style.css
+
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button|REBASE 3/3)
+$ git rebase --continue
+[detached HEAD 8ebbf1b] add feature for new_ui_button
+ Date: Tue Jul 21 08:48:05 2026 +0200
+ 3 files changed, 24 insertions(+), 9 deletions(-)
+Successfully rebased and updated refs/heads/feature/new-ui-button.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git status
+On branch feature/new-ui-button
+Your branch is ahead of 'origin/feature/new-ui-button' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 758 bytes | 758.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/MichailBogdanov/SEDO-05-2026-Retake-Exam-1.git
+   ff07279..8ebbf1b  feature/new-ui-button -> feature/new-ui-button
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git pull
+Already up to date.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (feature/new-ui-button)
+$ git checkout bugfix/home-load
+Switched to a new branch 'bugfix/home-load'
+branch 'bugfix/home-load' set up to track 'origin/bugfix/home-load'.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git status
+On branch bugfix/home-load
+Your branch is up to date with 'origin/bugfix/home-load'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git add .
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git commit -m "bugfix index.html"
+[bugfix/home-load 7c46b9c] bugfix index.html
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git status
+On branch bugfix/home-load
+Your branch is ahead of 'origin/bugfix/home-load' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   script.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git add .
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git commit -m "bugfix script.js"
+[bugfix/home-load 3c64d54] bugfix script.js
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git status
+On branch bugfix/home-load
+Your branch is ahead of 'origin/bugfix/home-load' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git add .
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git commit -m "bugfix style.css"
+[bugfix/home-load 1244708] bugfix style.css
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git log --oneline
+1244708 (HEAD -> bugfix/home-load) bugfix style.css
+3c64d54 bugfix script.js
+7c46b9c bugfix index.html
+ff07279 (origin/chore/user-service-refactor, origin/bugfix/home-load) Initial upload
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git rebase -i HEAD~3
+[detached HEAD 9dfa583] bugfix home-load
+ Date: Tue Jul 21 09:05:48 2026 +0200
+ 3 files changed, 11 insertions(+), 13 deletions(-)
+Successfully rebased and updated refs/heads/bugfix/home-load.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 532 bytes | 532.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/MichailBogdanov/SEDO-05-2026-Retake-Exam-1.git
+   ff07279..9dfa583  bugfix/home-load -> bugfix/home-load
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (bugfix/home-load)
+$ git checkout chore/user-service-refactor
+Switched to a new branch 'chore/user-service-refactor'
+branch 'chore/user-service-refactor' set up to track 'origin/chore/user-service-refactor'.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git status
+On branch chore/user-service-refactor
+Your branch is up to date with 'origin/chore/user-service-refactor'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git add .
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git commit -m "chore index.html"
+[chore/user-service-refactor f64418f] chore index.html
+ 1 file changed, 4 insertions(+), 6 deletions(-)
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git status
+On branch chore/user-service-refactor
+Your branch is ahead of 'origin/chore/user-service-refactor' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git status
+On branch chore/user-service-refactor
+Your branch is ahead of 'origin/chore/user-service-refactor' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   script.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git add .
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git commit -m "chore script.js"
+[chore/user-service-refactor b8095fd] chore script.js
+ 1 file changed, 14 insertions(+), 4 deletions(-)
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git status
+On branch chore/user-service-refactor
+Your branch is ahead of 'origin/chore/user-service-refactor' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git add .
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git commit -m "chore style.css"
+[chore/user-service-refactor e3bdb9e] chore style.css
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git log --oneline
+e3bdb9e (HEAD -> chore/user-service-refactor) chore style.css
+b8095fd chore script.js
+f64418f chore index.html
+ff07279 (origin/chore/user-service-refactor) Initial upload
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git rebase -i HEAD~3
+[detached HEAD 014a5ff] add user-service-refactor
+ Date: Tue Jul 21 09:10:48 2026 +0200
+ 3 files changed, 24 insertions(+), 14 deletions(-)
+Successfully rebased and updated refs/heads/chore/user-service-refactor.
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git log --oneline
+014a5ff (HEAD -> chore/user-service-refactor) add user-service-refactor
+ff07279 (origin/chore/user-service-refactor) Initial upload
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 778 bytes | 778.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/MichailBogdanov/SEDO-05-2026-Retake-Exam-1.git
+   ff07279..014a5ff  chore/user-service-refactor -> chore/user-service-refactor
+
+micha@Michis-PC MINGW64 /c/Michail_C/SoftUni/SoftUni/DevOps/Exam_21.07/SEDO-05-2026-Retake-Exam-1 (chore/user-service-refactor)
+$
+
+
